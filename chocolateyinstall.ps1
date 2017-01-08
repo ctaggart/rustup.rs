@@ -12,6 +12,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
 
+  silentArgs   = '-y'
   validExitCodes= @(0)
 
   softwareName  = 'rustup-init*'

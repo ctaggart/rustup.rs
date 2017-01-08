@@ -1,15 +1,11 @@
 type file
 id rustup
-authors Mozilla
-projecturl https://www.rust-lang.org/
-licenseurl https://github.com/mozilla/rust/blob/master/LICENSE-MIT
+projecturl https://rustup.rs/
+authors The Rust Project Developers
+licenseurl https://github.com/rust-lang-nursery/rustup.rs/blob/master/LICENSE-MIT
 iconurl http://www.rust-lang.org/logos/rust-logo-128x128-blk.png
-summary
-    Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
 description
-    Rust is a systems programming language focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t good at: embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems. It improves on current languages targeting this space by having a number of compile-time safety checks that produce no runtime overhead, while eliminating all data races. Rust also aims to achieve ‘zero-cost abstractions’ even though some of these abstractions feel like those of a high-level language. Even then, Rust still allows precise control like a low-level language would.
-tags
-    rust, language, programming, development
+    rustup is an installer for the systems programming language Rust
+tags rust, language, programming, development
 files
     chocolateyinstall.ps1 ==> tools
-version 1.0.0
